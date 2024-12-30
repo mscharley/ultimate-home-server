@@ -36,7 +36,7 @@ generous free personal plan which supports up to three users and 100 devices whi
 project.
 
 Thus, only two modes of operation. Either a service is a local service and it is exposed out of Kubernetes using a local
-ingress, or it is a remote-access service exposed through Tailscale. There is no needs to try to expose the same service
+ingress, or it is a remote-access service exposed through Tailscale. There is no need to try to expose the same service
 in both ways.
 
 [tailscale]: https://tailscale.com/
