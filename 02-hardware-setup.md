@@ -33,3 +33,26 @@ and match them to slots on the board to make things easy to match. For example, 
 
 ![An image of all the compute modules populated and booted.](imgs/02/02-fully-populated.jpg)
 
+## Install everything in the case
+
+Once all the modules are on the board, booting and you're able to connect to all the modules via SSH, you're ready to
+install the board into the case. This is very straight forward if you follow the information in the manual. Once it's in
+and everything from the case is plugged in, one last test is worth it before applying the heatsinks.
+
+![An image of the DeskPi SuperC6 installed in its case.](imgs/02/03-in-case.jpg)
+
+When installing the heatsinks, place the thermal pads of the appropriate size on, then tighten screws in an X pattern.
+
+![An image of several compute modules in various stages of having a heatsink
+installed.](imgs/02/04-heatsink-applications.jpg)
+
+Once all the heatsinks are installed, boot things up one last time and make sure that everything is working before
+closing the top of the case.
+
+![An image of all the heatsinks fully installed, and all the modules booted.](imgs/02/05-done.jpg)
+
+## Next
+
+Next, we need to [install Kubernetes][kubernetes].
+
+[kubernetes]: ./03-kubernetes.md

@@ -11,3 +11,4 @@ like.
    just as importantly what isn't in scope.
 1. [Prerequisites](./01-prerequisites.md) - What hardware and other things you may need if you want to follow along.
 2. [Hardware setup](./02-hardware-setup.md) - Initial setup of the hardware along with OS installation.
+3. [Install Kubernetes](./03-kubernetes.md) - Setup Kubernetes on the host OS.
